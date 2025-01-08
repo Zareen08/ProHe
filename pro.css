@@ -2,6 +2,7 @@ header{
     background-image: url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    
 }
 nav{
     display: flex;
@@ -80,6 +81,10 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 .about{
     border-radius: 10px;
     padding: 130px 150px;
@@ -106,4 +111,17 @@ main{
 }
 .ides{
     font-weight: bold;
+}
+
+.tc{
+    text-align: center
+}
+
+.skills{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 28px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
 }
