@@ -142,3 +142,39 @@ main section{
 .rebut{
     margin-top: 55px;
 }
+footer{
+    padding: 10px 230px;
+    display: flex;
+    gap: 80px;
+}
+
+.col-2{
+    width: 50%;
+}
+.cnt{
+    
+}
+input[type="text"], input[type="email"]{
+    height: 34px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: white;
+    display: block;
+    margin-bottom: 24px;
+}
+
+textarea{
+    height: 64px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: white;
+    display: block;
+    margin-bottom: 24px;
+}
+
+input::placeholder{
+    text-align: center;
+    font-size: 18px;  
+}
