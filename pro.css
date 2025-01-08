@@ -125,3 +125,20 @@ main section{
     padding: 28px;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
 }
+
+
+.re-con{
+    display: flex;
+    gap: 20px;
+}
+.sub-ti{
+    color: #757575;
+    font-size: 20px;
+}
+.ex-des{
+    color: #757575;
+}
+
+.rebut{
+    margin-top: 55px;
+}
